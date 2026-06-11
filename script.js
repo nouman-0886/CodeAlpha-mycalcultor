@@ -48,7 +48,10 @@ delet.onclick =() =>{
 };
 
 
-answerBtn.addEventListener("click", calculate);
+answerBtn.addEventListener("click", ()=>{
+ansSec.value = "";
+calculate
+});
 
 
 

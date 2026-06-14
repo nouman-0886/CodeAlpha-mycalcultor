@@ -50,6 +50,7 @@ delet.onclick =() =>{
 
 answerBtn.addEventListener("click", ()=>{
 ansSec.value = "";
+qSec.value = ansSec.value;
 calculate
 });
 
